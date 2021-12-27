@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui;
+    font-size:100%;
+    background-color: #404040;
+    background-size: cover;
+    color: white
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-image: linear-gradient(90deg, rgb(168, 36, 36), rgb(103, 23, 105));
+    min-height: 100vh;
+}
+
+
+#siteHeader {
+    display: flex;
+    height: 60px;
+    background-color: rgb(0 0 0 / 50%);
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(4px);
+    }
+
+#siteHeader img{
+    max-height: 30px;
+   
+}
+
+#siteHeader a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+#siteHeader a:hover{
+    text-shadow: 0px 0 5px #00edff;
+    }
+ 
+#sectionBanner{
+    padding: 40px;
+    }
+
+#sectionBanner img {
+    width:100%;
+}
+
+a#linkParticipe{
+    color:yellow;
+    border: 1px solid yellow;
+    padding:  5px 15px;
+    border-radius: 5px;
+}
+
+hr {
+   margin: 0px 20px;
+   }
+
+   h1{
+    font-size: 300%;
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.linhaParticipe{
+    font-size: 160%;
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content:space-around;
+}
+
+.txtParticipe1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    justify-content: space-evenly;
+}
+
+.caixaParticipe{
+    flex-basis: 260px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    transition: 0.5s;
+
+}
+
+.caixaParticipe img{
+max-width: 200px;
+max-height: 200px;
+
+}
+
+.caixaParticipe:hover{
+    transform: scale(1.2);
+}
+
+
+.linhaPremios{
+    font-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content:center;
+}
+
+.txtPremios1{
+    font-size: 160%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    justify-content: space-evenly;
+}
+
+.caixaPremios{
+    flex-basis: 260px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    transition: 0.5s;
+    
+
+}
+
+.caixaPremios img{
+max-width: 200px;
+max-height: 110px;
+
+}
+
+.caixaPremios:hover{
+    transform: scale(1.2);
+}
+
+hr {
+    margin: 0px 20px;
+    }
+
+.linhaProdutosParticipantes{
+    font-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content:center;
+}
+
+.caixaProdutosParticipantes{
+
+    flex-basis: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.txtProdutosParticipantes{
+    font-size: 100%;
+    color: white;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+}
+
+.caixaProdutosParticipantes img{
+
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.sectionRegulamento{
+   
+    text-align: center;
+
+}
+
+.sectionRegulamento iframe{
+    
+    width: 800px;
+    height: 600px;
+   
+}
+
+
+details{
+    margin: 20px auto;
+    background-color: rgb(0 0 0 /30%);
+    border:1px solid white ;
+    border-radius: 5px;
+    width: 900px;
+}
+
+details summary{
+    background-color: rgba(0 0 0 /30%);
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+details p{
+    padding: 0 20px;
+}
+
+
+footer{
+    background-color: rgb(0 0 0 /30%);
+    padding: 20px;
+    
+    
+}
+
+footer .info{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+
+footer .info img,
+footer.info p { 
+    margin: 20px;
+}
+
+footer .info img{
+    height: 80px;
+}
+
+.copy{
+
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
